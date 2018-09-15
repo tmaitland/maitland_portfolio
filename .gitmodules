@@ -1,0 +1,3 @@
+[submodule "projects/flawpy_bird"]
+	path = projects/flawpy_bird
+	url = https://github.com/tmaitland/flawpy_bird.git

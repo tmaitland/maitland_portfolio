@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+    <title>Music Boxes</title>
+</head>
+
+<body>
+    <audio id="cAudio">
+        <source src="music_notes/c_note.mp3" type="audio/mpeg" />
+        <source src="music_notes/c_note.ogg" type="audio/ogg" />
+        <source src="music_notes/c_note.wav" type="audio/wav" />
+    </audio>
+    <audio id="dAudio">
+        <source src="music_notes/d_note.mp3" type="audio/mpeg" />
+        <source src="music_notes/d_note.ogg" type="audio/ogg" />
+        <source src="music_notes/d_note.wav" type="audio/wav" />
+    </audio>
+    <audio id="eAudio">
+        <source src="music_notes/e_note.mp3" type="audio/mpeg" />
+        <source src="music_notes/e_note.ogg" type="audio/ogg" />
+        <source src="music_notes/e_note.wav" type="audio/wav" />
+    </audio>
+    <audio id="fAudio">
+        <source src="music_notes/f_note.mp3" type="audio/mpeg" />
+        <source src="music_notes/f_note.ogg" type="audio/ogg" />
+        <source src="music_notes/f_note.wav" type="audio/wav" />
+    </audio>
+    <audio id="gAudio">
+        <source src="music_notes/g_note.mp3" type="audio/mpeg" />
+        <source src="music_notes/g_note.ogg" type="audio/ogg" />
+        <source src="music_notes/g_note.wav" type="audio/wav" />
+    </audio>
+    <audio id="aAudio">
+            <source src="music_notes/a_note.mp3" type="audio/mpeg"/>
+            <source src="music_notes/a_note.ogg" type="audio/ogg"/>
+            <source src="music_notes/a_note.wav" type="audio/wav"/>
+    </audio>
+    <audio id="bAudio">
+            <source src="music_notes/b_note.mp3" type="audio/mpeg"/>
+            <source src="music_notes/b_note.ogg" type="audio/ogg"/>
+            <source src="music_notes/b_note.wav" type="audio/wav"/>
+    </audio>
+    <div class="piano">
+        <div class="key" id="ckey">
+            <span class="black-key"></span>
+            </div>
+        <div class="key" id="dkey"> 
+            <span class="black-key"></span>
+            </div>
+        <div class="key" id="ekey">
+            <span class="black-key"></span>
+            </div>
+        <div class="key" id="fkey"><p>F</p></div>
+        <div class="key" id="gkey">
+            <span class="black-key"></span>
+            </div>
+        <div class="key" id="akey">
+            <span class="black-key"></span>
+            </div>
+        <div class="key" id="bkey"></div>
+    </div>
+    <h1>Basic Piano</h1>
+    <script src="app.js"></script>
+</body>
+
+</html>

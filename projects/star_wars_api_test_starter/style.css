@@ -1,0 +1,74 @@
+/* starter */
+body{
+  margin: 0;
+  padding: 0;
+  background: url("starsgif.gif");
+  background-size: cover;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+header img{
+  width: 60%;
+}
+
+/* test */
+
+
+.imgs {
+  border: 5px solid black;
+  position: relative;
+  display: inline-flex;
+  max-height: 100vh;
+  min-height: 60vh; 
+  max-width: 20vw;
+  min-width: 20vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 120px;
+  background-color: aliceblue;
+  font-family: 'Titillium Web', sans-serif;
+  box-shadow: 10px 10px 10px #00000093;
+}
+
+div img{
+  max-width: 20vw;
+  min-width: 20vw;
+  max-height: 30vh;
+  min-height: 30vh;
+
+}
+
+.aleft {
+  float: left;
+  position: relative;
+  display: inline-flex;
+  justify-content:left;
+  justify-content:space-evenly;
+  justify-content: space-between;
+  flex-direction: column;
+   
+  
+}
+
+.aright{
+  float: right;
+  position: relative;
+  display: inline-flex;
+  padding-right: 5px;
+  justify-content: right;
+  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-direction: column;
+ 
+}
+
+.space {
+  
+  padding: 20px;
+}
+
